@@ -1,7 +1,7 @@
 
 # Campus Course & Records Manager (CCRM)
 
-## 📌 Project Overview
+##  Project Overview
 
 Campus Course & Records Manager (**CCRM**) is a **Java SE console application** that helps institutes manage:
 
@@ -14,7 +14,7 @@ This project demonstrates **Java OOP principles, advanced Java features, and des
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 1. **Requirements**
 
@@ -39,7 +39,7 @@ This project demonstrates **Java OOP principles, advanced Java features, and des
 
 ---
 
-## 📚 Evolution of Java
+##  Evolution of Java
 
 * **1995**: Java 1.0 released (Oak → Java).
 * **1998**: Java 2 (J2SE, J2EE, J2ME split).
@@ -51,7 +51,7 @@ This project demonstrates **Java OOP principles, advanced Java features, and des
 
 ---
 
-## 🖥️ Java Editions Comparison
+##  Java Editions Comparison
 
 | Feature | Java ME         | Java SE                | Java EE (Jakarta EE)             |
 | ------- | --------------- | ---------------------- | -------------------------------- |
@@ -62,17 +62,17 @@ This project demonstrates **Java OOP principles, advanced Java features, and des
 
 ---
 
-## ☕ JDK, JRE, JVM Explained
+##  JDK, JRE, JVM Explained
 
 * **JDK (Java Development Kit)** → tools to **compile & run** Java programs.
 * **JRE (Java Runtime Environment)** → runtime environment containing JVM + core libraries.
 * **JVM (Java Virtual Machine)** → executes Java bytecode → machine code.
 
-📌 **Flow**: Source `.java` → Compiler → `.class` (bytecode) → JVM → Machine instructions.
+ **Flow**: Source `.java` → Compiler → `.class` (bytecode) → JVM → Machine instructions.
 
 ---
 
-## 🪟 Install Java on Windows
+##  Install Java on Windows
 
 1. Download JDK from [Oracle](https://www.oracle.com/java/technologies/downloads/).
 2. Run installer & set environment variable:
@@ -87,22 +87,20 @@ This project demonstrates **Java OOP principles, advanced Java features, and des
    java -version
    ```
 
-📸 *\[Insert screenshot: JDK installation verification]*
 
 ---
 
-## 🚀 Eclipse Setup
+##  Eclipse Setup
 
 1. Open Eclipse → **File → New → Java Project**.
 2. Import existing source (`src/edu/ccrm`).
 3. Set run configuration: Main class = `edu.ccrm.cli.CCRMApp`.
 4. Run project → see menu-driven interface.
 
-📸 *\[Insert screenshots: Eclipse project setup, running the program]*
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 edu.ccrm
@@ -116,7 +114,7 @@ edu.ccrm
 
 ---
 
-## 🔑 Features Demonstrated
+##  Features Demonstrated
 
 * **Encapsulation** → Student (private fields + getters/setters).
 * **Inheritance & Abstraction** → Person → Student/Instructor.
@@ -135,7 +133,7 @@ edu.ccrm
 
 ---
 
-## 📊 Mapping Table (syllabus → code)
+##  Mapping Table (syllabus → code)
 
 | Concept           | File/Class                                                                  |
 | ----------------- | --------------------------------------------------------------------------- |
@@ -153,7 +151,7 @@ edu.ccrm
 
 ---
 
-## 🧪 Usage Demo
+##  Usage Demo
 
 ```
 ==== CCRM - Campus Course & Records Manager ====
@@ -178,20 +176,18 @@ DOB (yyyy-mm-dd): 2004-05-18
 Added: Student{id=..., regNo=23BCY10082, ...}
 ```
 
-📸 *\[Insert screenshot: running program]*
 
 ---
 
-## 📂 Exports & Backups
+##  Exports & Backups
 
 * Exported data → `~/ccrm-data/export/students.csv`, `courses.csv`.
 * Backup created → `~/ccrm-data/backup_20250924_153000/`
 
-📸 *\[Insert screenshot: folder structure]*
 
 ---
 
-## 🛠️ Assertions
+## Assertions
 
 * Example: `assert id != null : "id must not be null";` in `Person.java`.
 * Enable assertions with:
@@ -202,29 +198,25 @@ Added: Student{id=..., regNo=23BCY10082, ...}
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-* ✅ JDK installation (`java -version`)
-* ✅ Eclipse project setup
-* ✅ Running program
-* ✅ Export/Backup folders
-
-*(add them inside `/screenshots/` folder in repo)*
+*  JDK installation (`java -version`)
+*  Eclipse project setup
+*  Running program
+*  Export/Backup folders
 
 ---
 
-## 🎥 Optional Demo Video
-
-👉 \[Insert YouTube or Google Drive link if you record a walkthrough]
-
----
-
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * Oracle Java Documentation
 * Java SE Tutorials (docs.oracle.com)
 * StackOverflow discussions
 
 ---
+## AUTHOR 
+NAME- RADHIKA AGARWAL
+EMAIL- radhikaa1512@gmail.com
+INSTITUTION - VIT BHOPAL
 
 
